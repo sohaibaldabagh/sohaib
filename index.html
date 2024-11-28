@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Interactive Educational Platform</title>
+<link href="styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<header class="header">
+<div class="container">
+<h1>EduPro</h1>
+<nav>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#courses">Courses</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content container">
+<div class="hero-image">
+<img src="images/hero-realistic.jpg" alt="Online Learning"/>
+</div>
+</div>
+<div class="hero-text">
+<h2>Start Your Learning Journey Today</h2>
+<p>Learn from top instructors with interactive lessons and exceptional content.</p>
+<div class="hero-button">
+<button class="cta" onclick="scrollToSection('courses')">Get Started</button>
+</div>
+</div>
+</section>
+
+<section class="courses" id="courses">
+<div class="container">
+<h2>Available Courses</h2>
+<div class="course-grid">
+<div class="course-card">
+<img src="images/course1-realistic.jpg" alt="Programming Course"/>
+<h3>Programming Basics</h3>
+<p>Master the fundamentals of programming with JavaScript.</p>
+<button>Details</button>
+</div>
+<div class="course-card">
+<img src="images/course2-realistic.jpg" alt="Web Design"/>
+<h3>Web Design</h3>
+<p>Learn how to create professional websites using HTML and CSS.</p>
+<button>Details</button>
+</div>
+<div class="course-card">
+<img src="images/course3-realistic.jpg" alt="App Development"/>
+<h3>App Development</h3>
+<p>Develop cutting-edge applications using React Native.</p>
+<button>Details</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="features" id="features">
+<div class="container">
+<h2>Why Choose EduPro?</h2>
+<div class="features-grid">
+<div class="feature">
+<i class="icon">🎓</i>
+<h3>Expert Instructors</h3>
+<p>Learn from industry leaders and seasoned professionals.</p>
+</div>
+<div class="feature">
+<i class="icon">💻</i>
+<h3>Interactive Experience</h3>
+<p>Engage with quizzes and hands-on activities to boost learning.</p>
+</div>
+<div class="feature">
+<i class="icon">🌟</i>
+<h3>Certified Courses</h3>
+<p>Earn globally recognized certificates upon course completion.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+<h2>Contact Us</h2>
+<p>We’re here to help. Fill out the form below and we’ll get back to you soon.</p>
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" rows="5" placeholder="Type your message" required></textarea>
+</div>
+<button type="submit" class="cta">Send</button>
+</form>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>All rights reserved © 2024 EduPro</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
